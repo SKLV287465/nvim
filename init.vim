@@ -2,7 +2,7 @@
 syntax on
 
 " Better colors
-set termguicolors
+"set termguicolors
 
 " number of spaces in a <Tab>
 set tabstop=4
@@ -61,9 +61,6 @@ Plug 'nvim-telescope/telescope.nvim'
 " An optional plugin recommended by Telescope docs
 Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make' }
 
-" colour scheme
-Plug 'gruvbox-community/gruvbox'
-
 " Lightline (bottom bar)
 Plug 'itchyny/lightline.vim'
 
@@ -90,15 +87,16 @@ Plug 'onsails/lspkind-nvim'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
 
+Plug 'windwp/nvim-autopairs'
 
 call plug#end()
 
 lua require('sklave')
 
 " declare your color scheme
-colorscheme gruvbox
+colorscheme vim
 " Use this for dark color schemes
-set background=dark
+"set background=dark
 
 
 " remaps
