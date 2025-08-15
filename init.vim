@@ -17,7 +17,6 @@ set shiftwidth=4
 
 " adds line numbers
 set number
-set relativenumber
 
 " columns used for the line number
 set numberwidth=4
