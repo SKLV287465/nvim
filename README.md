@@ -1,2 +1,0 @@
-mv ~/.config
-git clone

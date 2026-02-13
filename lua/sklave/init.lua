@@ -1,8 +1,0 @@
-require('sklave.lightline')
-require('sklave.nvim-autopairs')
-require('sklave.nvimtree')
-require('sklave.treesitter')
-require('sklave.telescope')
-require('sklave.gitsigns')
-require('sklave.lsp')
-require('sklave.cmp')
