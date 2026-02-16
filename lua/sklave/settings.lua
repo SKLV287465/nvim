@@ -31,6 +31,9 @@ vim.opt.cursorline = true
 -- Disable swapfile
 vim.opt.swapfile = false
 
+-- themes
+vim.opt.background = "light"
+
 -- Filetype plugins & indentation
 vim.cmd("filetype plugin indent on")
 vim.cmd("filetype plugin on")
