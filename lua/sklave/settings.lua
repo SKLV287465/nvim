@@ -32,7 +32,10 @@ vim.opt.cursorline = true
 vim.opt.swapfile = false
 
 -- themes
-vim.opt.background = "light"
+vim.cmd[[colorscheme tokyonight-day]]
+
+-- syntax
+vim.cmd("syntax on")
 
 -- Filetype plugins & indentation
 vim.cmd("filetype plugin indent on")
