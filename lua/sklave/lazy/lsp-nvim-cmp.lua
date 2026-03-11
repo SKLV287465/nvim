@@ -17,7 +17,7 @@ return {
         mason.setup()
 
         mason_lspconfig.setup({
-            ensure_installed = { "rust_analyzer", "lua_ls" },
+            ensure_installed = { "rust_analyzer", "lua_ls", "pyright" },
         })
 
         local capabilities = cmp_lsp.default_capabilities()
